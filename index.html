@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MessageChat</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/aside.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-container">
+
+                <section class="header-logo-container">
+                    <span class="header-logo">
+                        <a href="index.html" title="MessageChat"><i class="fas fa-comments"></i></a>
+                    </span>
+                </section>
+
+                <section class="header-user-container">
+
+                    <a href="src/key.jpg" title="Foto de perfil">
+                        <img src="src/key.jpg" alt="">
+                    </a>
+                    <a href="#" class="header-user-name">
+                        <span>Kei Shirogane</span>
+                    </a>
+                    <span class="header-user-edit">
+                        <i class="fas fa-edit"></i>
+                    </span>
+
+                </section>
+
+                <section class="header-container-items">
+                    <div class="header-item">
+                        <a href="#"><i class="fas fa-user"></i>Profile</a>
+                    </div>
+                    <div class="header-item">
+                        <a href="#"><i class="fas fa-user-plus"></i>Add Friends</a>
+                    </div>
+                    <div class="header-item">
+                        <a href="#"><i class="fas fa-cog"></i>Options</a>
+                    </div>
+                    <div class="header-item">
+                        <a href="#"><i class="fas fa-info-circle"></i>Support</a>
+                    </div>
+                </section>
+            </div>
+            <nav></nav>
+        </header>
+        <main>
+
+            <div class="main-container">
+                <section class="main-user-area">
+                    <div class="main-user-info">
+                        <a href="#">
+                            <span>
+                                <img src="src/sabio.jpg" alt="">
+                                <span>Sábio</span>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+                <section class="main-text-area" id="text-output">
+                    <!-- <div class="message-sended">
+                        <div class="message-sended-user">
+                            <img src="src/key.jpg" alt="user">
+                            <span>Kei Shirogane</span> 
+                        </div>
+                        <div class="message-sended-text">
+                            <p>
+                            </p>
+                        </div>
+                    </div> -->
+                </section>
+                <section class="main-text-input">
+                    <div>
+                        <input type="text" placeholder="Envie sua mensagem" id="text-input" autofocus>
+                        <span class="send-message" id="text-input-button"><i class="fas fa-paper-plane"></i></span>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+        <aside>
+            <div class="aside-container">
+                
+                <section class="aside-search-friend">
+                    <div class="aside-search-item">
+                        <span><i class="fas fa-search"></i></span>
+                        <input type="text">
+                    </div>
+                </section>
+
+                <section class="aside-friend-container">
+
+                    <div class="aside-friend-item">
+                        <a href="#">
+                            <span class="aside-friend-info">
+                                <span>
+                                    <img src="src/sabio.jpg" alt="">
+                                </span>
+                                <span>Sábio</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="aside-friend-item">
+                        <a href="#">
+                            <span class="aside-friend-info">
+                                <span>
+                                    <img src="src/key.jpg" alt="">
+                                </span>
+                                <span>User 2077</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="aside-friend-item">
+                        <a href="#">
+                            <span class="aside-friend-info">
+                                <span>
+                                    <img src="src/key.jpg" alt="">
+                                </span>
+                                <span>User 2077</span>
+                            </span>
+                        </a>
+                    </div>
+                 
+                </section>
+
+                <section class="aside-header">
+                    <div class="aside-header-options">
+                        <span>
+                            <a href="#"><i class="fas fa-user"></i></a>
+                        </span>
+                        <span>
+                            <a href="#"><i class="fas fa-user-plus"></i></a>
+                        </span>
+                        <span>
+                            <a href="#"><i class="fas fa-cog"></i></a>
+                        </span>
+                        <span>
+                            <a href="#"><i class="fas fa-info-circle"></i></a>
+                        </span>
+                </section>
+            </div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
